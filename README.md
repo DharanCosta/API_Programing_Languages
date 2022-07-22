@@ -6,7 +6,7 @@
 
 O projeto consiste em uma API de Linguagens de programação
 
--🔨 `Funcionalidade 1`: Retornar um JSON;</br>
+-🔨 `Funcionalidade 1`: Retornar um JSON para consumo;</br>
 -🔨 `Funcionalidade 2`: CRUD completo;</br>
 
 
@@ -20,6 +20,15 @@ O projeto consiste em uma API de Linguagens de programação
 ## 📁 Repositório relacionado 
 
 https://github.com/DharanCosta/ImersaoJava_Alura/
+
+## 🔗Link do deploy
+
+https://api-linguagens-alura.herokuapp.com/
+
+## ♟ Endpoints para teste
+
+Lista Rankeada - https://api-linguagens-alura.herokuapp.com/linguagens/ranking 
+
 
 <h1 align="center">🌎 Onde você me encontra? 🌍</h1>
 
