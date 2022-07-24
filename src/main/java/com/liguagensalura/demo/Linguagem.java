@@ -10,7 +10,9 @@ public class Linguagem {
     private String id;
     private String title;
     private String image;
-    private int rating;
+    private double rating;
+
+    private int votes;
 
     public Linguagem(){ }
 
@@ -18,6 +20,7 @@ public class Linguagem {
         this.title = title;
         this.image = image;
         this.rating = rating;
+        this.votes = votes;
     }
 
     public String getTitle() {
@@ -27,9 +30,7 @@ public class Linguagem {
     public String getImage() {
         return image;
     }
-    public int getRating() {
-        return rating;
-    }
+
 
     public void setTitle(String title) {
         this.title = title;
@@ -39,13 +40,26 @@ public class Linguagem {
         this.image = image;
     }
 
-    public void setRating(int rating) {
-        this.rating = rating;
-    }
-
     public String getId() {
         return id;
     }
+
+    public int getVotes() {
+        return votes;
+    }
+
+    public void setVotes(int votes) {
+        this.votes = votes;
+    }
+
+    public double getRating() {
+        return rating;
+    }
+
+    public void setRating(double rating) {
+        this.rating = rating;
+    }
+
 
     @Override
     public String toString() {
@@ -53,7 +67,8 @@ public class Linguagem {
                 "id='" + id + '\'' +
                 ", title='" + title + '\'' +
                 ", image='" + image + '\'' +
-                ", rating=" + rating +
+                ", rating=" + rating + '\'' +
+                ", votes" + votes +
                 '}';
     }
 }
