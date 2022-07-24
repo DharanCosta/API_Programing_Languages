@@ -5,7 +5,7 @@ target/
 !**/src/test/**/target/
 !**/env.properties
 env.properties
-GIT
+
 ### STS ###
 .apt_generated
 .classpath
