@@ -8,7 +8,8 @@ O projeto consiste em uma API de Linguagens de programação
 
 -🔨 `Funcionalidade 1`: Retornar um JSON para consumo;</br>
 -🔨 `Funcionalidade 2`: CRUD completo;</br>
-
+-🔨 `Funcionalidade 3`: Sistema de votação</br>
+-🔨 `Funcionalidade 4`: Ranking</br>
 
 <h3> ✔️ Técnicas e tecnologias utilizadas </h3>
  
